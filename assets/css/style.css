@@ -92,13 +92,13 @@ header ul li a:hover {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    flex: 1 20%;
+    flex: 0 0 23%;
     text-align: end;
     padding-right: 30px;
 }
 
 .main-section article {
-    flex: 3 70%;
+    flex: 0 0 77%;
     display: flex;
     padding-left: 15px;
     border-left: 2px solid var(--color2);
@@ -121,7 +121,8 @@ header ul li a:hover {
 
 .work-row-div {
     position: relative;
-    width: 500px;
+    /*width: 500px;*/
+    flex: 0 0 40%;
 }
 
 .work-row-div span {
@@ -136,7 +137,7 @@ header ul li a:hover {
 }
 
 .work-row img {
-    width: 460px;
+    width: 95%;
     margin: 20px;
 }
 
@@ -146,6 +147,7 @@ header ul li a:hover {
 
 #first-project {
     width: 1000px;
+    width: 70%;
 }
 
 #first-project img {
@@ -187,3 +189,10 @@ footer h3 {
     font-size: 24px;
 }
 /*Footer styles end*/
+@media screen and (max-width: 1024px) {
+    /*
+    .work-row-div {
+        width: 375px;
+    }
+    */
+}
