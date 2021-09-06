@@ -1,6 +1,6 @@
 # Portfolio-Under-Construction
 
-![A past screenshot of the site](./assets/images/portCabralio-image3.png)
+![A past screenshot of the site](./assets/images/portCabralio-image3.PNG)
 
 
 ## Purpose
